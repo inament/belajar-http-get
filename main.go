@@ -52,3 +52,4 @@ func getPosts(data chan<- result) {
 		return
 	}
 	data <- result{string(str), nil}
+}
